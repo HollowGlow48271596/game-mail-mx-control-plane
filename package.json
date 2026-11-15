@@ -1,0 +1,23 @@
+{
+  "name": "game-mail-mx-control-plane",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/game_mail_service.ts",
+    "demo": "tsx src/configure_arena_mail.ts",
+    "test": "tsx --test test/mx_plan.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
